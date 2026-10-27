@@ -1,0 +1,20 @@
+# окружение и кэш
+.venv/
+__pycache__/
+
+# личное: настройки, журналы разговоров, рабочая папка Claude
+config.json
+jarvis.log
+jarvis-errors.log
+claude-work/
+
+# скачиваемое и тяжёлое
+voices/
+voice-samples/
+voice-samples-edith/
+
+# черновые проверки автора (в них фразы из личных разговоров)
+test_*.py
+
+# старая самопроверка (под прежнее имя и голос)
+selftest.py
